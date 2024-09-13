@@ -1,69 +1,33 @@
-Weather Station 🌦️
+# Weather Forecast CLI (Rust)
 
-Weather Station is a simple and efficient command-line interface (CLI) app built with Rust that fetches current weather information for any location. The app provides accurate weather data using online weather APIs.
-Features
+Welcome to the **Weather Forecast CLI** app, a command-line tool built using **Rust** that fetches weather information for your desired location. This tool provides current weather data, making it easy to check forecasts right from your terminal.
 
-    Fetch current weather by city name.
-    Display temperature, humidity, and weather conditions.
-    Fast and lightweight CLI.
-    Built using Rust for high performance.
+## Features
 
-Prerequisites
+- Fetch real-time weather data for any location.
+- Simple and fast command-line interface.
+- Built using Rust for optimal performance.
 
-Make sure you have Rust installed. You can install it using rustup:
+## Installation
 
-bash
+### Prerequisites
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+- Ensure you have **Rust** installed. If not, install it by following the instructions at [rust-lang.org](https://www.rust-lang.org/tools/install).
 
-Installation
+### Clone the Repository
 
-To clone and run the Weather Station app, follow these steps:
+To get started with the app, clone the repository using the following command:
 
-    Clone the repository:
+```bash
+git clone https://github.com/your-username/weather-forecast-cli-rust.git
+```
+## Build the Application
 
-    bash
+Once cloned, navigate into the project directory and build the application using Cargo:
 
-git clone https://github.com/your-username/weather-station.git
-
-Navigate to the project directory:
-
-bash
-
-cd weather-station
-
-Build the project:
-
-bash
-
+```bash
+cd weather-forecast-cli-rust
 cargo build --release
+```
+This provides a clean, professional section for the **Build**, **Usage**, **Commands**, **Contributing**, and **License** information in markdown format for your GitHub project.
 
-Run the app:
-
-bash
-
-cargo run -- <city_name>
-
-Replace <city_name> with the name of the city for which you want to fetch the weather data. Example:
-
-bash
-
-    cargo run -- London
-
-Usage
-
-Once you have built the app, you can run it directly with:
-
-bash
-
-./target/release/weather-station <city_name>
-
-Example:
-
-bash
-
-./target/release/weather-station New York
-
-Contributing
-
-Feel free to fork this repository, create a new branch, and submit a pull request with your improvements or bug fixes!
